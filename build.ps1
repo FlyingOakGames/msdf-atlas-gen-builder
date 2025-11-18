@@ -121,4 +121,4 @@ Write-Host "Build msdf-atlas-gen (dynamic lib)" -ForegroundColor DarkCyan
 	
 	Write-Host "`tDone"
 
-Read-Host -Prompt "Press Enter to exit"
+Read-Host -Prompt "All done - Press Enter to exit"

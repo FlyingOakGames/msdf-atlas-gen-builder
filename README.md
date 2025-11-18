@@ -26,4 +26,7 @@ The following binaries will be generated for ```Windows x64```:
 
 ## To do
 
-Generating ```macOS ARM64``` and ```Linux x64``` binaries.
+- Check cmake support and version;
+- Better logging;
+- make a msdf-atlas-gen branch with local forks only
+- Generating ```macOS ARM64``` and ```Linux x64``` binaries.
