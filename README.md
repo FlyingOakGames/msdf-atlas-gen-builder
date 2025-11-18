@@ -11,6 +11,11 @@ It mainly generates binaries that are not officially distributed, and builds the
 ## How to use
 You can either fork/download the repository and run ```./build.ps1``` (the binaries will be output in the ```./binaries``` folder), or fork and trigger a manual [Github Actions workflow run](./actions) (the binaries will be available in the run artifacts once completed).
 
+## Requirements
+
+- A valid Visual Studio installation with the C++ development workload;
+- CMake 3.15 (or newer) accessible from PATH.
+
 ## Generated binaries
 
 The following binaries will be generated for ```Windows x64```:

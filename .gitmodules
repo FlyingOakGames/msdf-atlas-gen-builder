@@ -1,0 +1,12 @@
+[submodule "libpng"]
+	path = libpng
+	url = https://github.com/FlyingOakGames/libpng.git
+[submodule "freetype"]
+	path = freetype
+	url = https://github.com/FlyingOakGames/freetype.git
+[submodule "zlib"]
+	path = zlib
+	url = https://github.com/FlyingOakGames/zlib.git
+[submodule "msdf-atlas-gen"]
+	path = msdf-atlas-gen
+	url = https://github.com/FlyingOakGames/msdf-atlas-gen.git

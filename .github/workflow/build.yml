@@ -1,0 +1,35 @@
+name: Build
+
+on: workflow_dispatch
+
+jobs:
+  build:
+  
+    strategy:
+      matrix:
+        os: [windows-2022]
+    
+    runs-on: ${{ matrix.os }}
+    
+    env:
+
+    name: Build
+    
+    steps:
+    
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+      
+    - name: Run script
+      run: ./build.ps1
+      shell: pwsh
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: 'Windows x64'
+        path: 'binaries'
+        retention-days: 1
+          
