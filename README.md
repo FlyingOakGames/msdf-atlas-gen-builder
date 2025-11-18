@@ -14,6 +14,7 @@ You can either fork/download the repository and run ```./build.ps1``` (the binar
 ## Requirements
 
 - A valid Visual Studio installation with the C++ development workload;
+- PowerShell;
 - CMake 3.15 (or newer) accessible from PATH.
 
 ## Generated binaries
@@ -26,7 +27,6 @@ The following binaries will be generated for ```Windows x64```:
 
 ## To do
 
-- Check cmake support and version;
 - Better logging;
 - make a msdf-atlas-gen branch with local forks only
 - Generating ```macOS ARM64``` and ```Linux x64``` binaries.
